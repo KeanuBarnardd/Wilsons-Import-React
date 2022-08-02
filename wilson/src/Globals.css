@@ -4,7 +4,7 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
-
+  --p-0:0.8rem;
   --p-1: 1rem;
   --p-2: 1.5rem;
   --p-3: 3rem;
@@ -14,6 +14,10 @@
   --gap-3: 60px;
   --pad-btn-1-w: 1.7rem;
   --pad-btn-1-h: 0.8rem;
+
+
+  --fs-1:0.9rem;
+  --fs-2:1.2rem;
 
   /*Custom-Main Colours to be changed to suit theme for website.*/
   --white-color: #fff;

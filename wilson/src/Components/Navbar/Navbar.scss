@@ -1,0 +1,25 @@
+nav {
+  padding: var(--p-2);
+  box-shadow: var(--box-shadow-11);
+  .navbar {
+    justify-content: space-between;
+
+    .navbar__links {
+      display: flex;
+      gap: var(--gap-1);
+
+      .navlinks {
+        text-decoration: none;
+        font-weight: 800;
+        color: var(--grey-400);
+        text-transform: uppercase;
+       
+      }
+
+      .navlinks.active{
+        color: var(--secondary-color);
+        transition: all ease-in-out var(--timer-short);
+      }
+    }
+  }
+}

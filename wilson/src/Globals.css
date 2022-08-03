@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 /*Import this file into your project into the MAIN index component, so it can be accessed by every child. */
 
 :root {
   --font-base: "DM Sans", sans-serif;
-  --p-0:0.8rem;
+  --p-0: 0.8rem;
   --p-1: 1rem;
   --p-2: 1.5rem;
   --p-3: 3rem;
@@ -15,9 +15,10 @@
   --pad-btn-1-w: 1.7rem;
   --pad-btn-1-h: 0.8rem;
 
+  --fs-1: 0.9rem;
+  --fs-2: 1.2rem;
 
-  --fs-1:0.9rem;
-  --fs-2:1.2rem;
+  --fs-header-1: 5.6rem;
 
   /*Custom-Main Colours to be changed to suit theme for website.*/
   --white-color: #fff;
@@ -59,8 +60,10 @@
   --shadow-soft: 0 3px 10px rgba(3, 0, 0, 0.205);
 
   /*Screen sizes*/
-  --screen-1: 1134px;
+  --screen-1: 1200px;
   --screen-2: 539px;
+
+  --screen-mobile: 600px;
 
   /*Box Shadows*/
   --box-shadow-1: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -83,4 +86,5 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-family: "Titillium Web", sans-serif;
 }

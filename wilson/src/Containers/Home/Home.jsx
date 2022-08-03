@@ -5,6 +5,7 @@ import HeaderWork from "./HeaderWork/HeaderWork";
 import OurMessage from "./OurMessage/OurMessage";
 import OurServices from "./OurServices/OurServices";
 import { images } from "../../Constants/index";
+import OurStats from "./Ourstats/OurStats";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <HeaderWork />
       <OurMessage/>
       <OurServices/>
+      <OurStats/>
     </>
   );
 };

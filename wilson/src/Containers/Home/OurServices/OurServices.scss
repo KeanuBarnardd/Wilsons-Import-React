@@ -8,10 +8,16 @@
 
   .services__content {
     .services__title {
-      margin-bottom: 2rem;
       font-size: 2.6rem;
+      color: var(--white-color);
+      text-transform: uppercase;
     }
 
+    hr {
+      width: 80px;
+      border: 3px solid var(--secondary-color);
+      margin-bottom: 2rem;
+    }
     .services__content-grid {
       display: grid;
       gap: 20px;

@@ -1,10 +1,13 @@
 import React from 'react'
 import './Home.scss';
+import Header from './../Header/Header';
+
+import {images} from '../../Constants/index';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Header backgroundImg={images.header} />
   )
 }
 
-export default Home
+export default Home;

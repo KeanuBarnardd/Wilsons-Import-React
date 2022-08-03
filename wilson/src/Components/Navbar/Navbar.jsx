@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import {AiFillHome,AiFillPhone,AiFillFileText,AiFillQuestionCircle} from "react-icons/ai";
 
-
 import "./Navbar.scss";
 import "../../App.scss";
 

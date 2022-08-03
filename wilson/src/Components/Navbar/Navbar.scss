@@ -57,6 +57,7 @@ nav {
           font-size: var(--fs-1);
 
           .navbar__navlinks-icon {
+            display:flex;
             margin-bottom: 5px;
             font-size: var(--fs-2);
             width: 100%;

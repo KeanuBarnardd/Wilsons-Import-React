@@ -4,7 +4,7 @@
   top: 90%;
   gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
+  margin-bottom: 10rem;
   .home__work-card {
     position: relative;
     border-top: 5px solid var(--secondary-color);
@@ -40,9 +40,4 @@
       color: var(--grey-500);
     }
   }
-
-  @media screen and (max-width: 580px) {
-    
-  }
 }
-

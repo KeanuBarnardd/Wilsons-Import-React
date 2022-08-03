@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurMessage.scss";
+import { motion } from "framer-motion";
 
 import { images } from "../../../Constants";
 
@@ -7,8 +8,17 @@ const OurMessage = () => {
   return (
     <div className=" app__flex">
       <div className="home__our-message-container app__container-width">
-        <img src={images.aboutImg} alt="" />
-        <div className="home__our-message-container-content">
+        <motion.img
+          src={images.aboutImg}
+          alt=""
+          whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+          transition={{ duration: 1}}
+        />
+        <motion.div
+          className="home__our-message-container-content"
+          whileInView={{ x: [100, 0], opacity: [0, 1] }}
+          transition={{ duration: 1}}
+        >
           <h1>Our message</h1>
           <hr />
           <p>
@@ -23,7 +33,7 @@ const OurMessage = () => {
             <br />
             From<span> Wilsons Imports</span>
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

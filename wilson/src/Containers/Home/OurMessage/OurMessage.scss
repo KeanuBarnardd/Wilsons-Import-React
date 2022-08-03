@@ -40,25 +40,23 @@
     display: flex;
     flex-direction: column;
     position: static;
-    box-shadow: var(--box-shadow-3);
+    border: 1px solid var(--grey-100);
     margin-top: 40rem;
-    background-color: red;
 
     .home__our-message-container-content {
+      img {
+        box-shadow: var(--box-shadow-3);
+      }
       box-shadow: none;
       position: static;
       width: 100%;
       max-width: 100%;
-
-      
     }
-
-
   }
 }
 
 @media screen and (max-width: 557px) {
   .home__our-message-container {
-   margin-top: 70rem;
+    margin-top: 70rem;
   }
 }

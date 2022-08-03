@@ -8,7 +8,7 @@ const OurMessage = () => {
     <div className=" app__flex">
       <div className="home__our-message-container app__container-width">
         <img src={images.aboutImg} alt="" />
-        <div class="our-message-container">
+        <div className="home__our-message-container-content">
           <h1>Our message</h1>
           <hr />
           <p>

@@ -4,13 +4,14 @@
   top: 90%;
   gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  padding: var(--p-1);
-  width: 80%;
-  background-color: var(--white-color);
-  box-shadow: var(--box-shadow-3);
 
   .home__work-card {
     position: relative;
+    border-top: 5px solid var(--secondary-color);
+    background-color: var(--white-color);
+
+    box-shadow: var(--box-shadow-3);
+    padding: 10px;
     img {
       width: 100%;
       height: 150px;
@@ -26,12 +27,17 @@
       border-radius: 1px;
       text-transform: uppercase;
       color: var(--grey-500);
-
+      padding-right: 10px;
       span {
         background-color: var(--white-color);
         padding: 1px 10px;
         border-radius: 2px;
       }
+    }
+
+    p {
+      padding: 6px;
+      color: var(--grey-500);
     }
   }
 }

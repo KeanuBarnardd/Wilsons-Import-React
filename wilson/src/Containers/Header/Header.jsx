@@ -11,7 +11,7 @@ const Header = ({ backgroundImg }) => {
         <motion.h1
           className="header__title"
           whileInView={{ x: [-200, 0], opacity: [0, 1] }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 1, delay: 0.7}}
         >
           Your ultimate trucking and warehousing services.
         </motion.h1>
@@ -19,7 +19,7 @@ const Header = ({ backgroundImg }) => {
         <motion.p
           className="header__text"
           whileInView={{ x: [-200, 0], opacity: [0, 1] }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 1 ,delay: 1}}
         >
           Here at wilsonport we pride ourselves in being known for our quality services. Your
           satisfaction and happiness is our number one priority all the time.
@@ -27,13 +27,13 @@ const Header = ({ backgroundImg }) => {
         <motion.div
           className="header__buttons-container"
           whileInView={{ x: [-200, 0], opacity: [0, 1] }}
-          transition={{ duration: 1.9 }}
+          transition={{ duration: 1 ,delay: 1.3}}
         >
           <button className="header__button header__button-orange">
-            <Link to="/contact">Get in Touch</Link>
+            <Link className="header__button-link"to="/contact">Get in Touch</Link>
           </button>
           <button className="header__button header__button-clear">
-            <Link to="/about">About us</Link>
+            <Link className="header__button-link"to="/about">About us</Link>
           </button>
         </motion.div>
       </motion.div>

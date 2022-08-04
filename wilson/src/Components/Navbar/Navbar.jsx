@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import {AiFillHome,AiFillPhone,AiFillFileText,AiFillQuestionCircle} from "react-icons/ai";
-import {logo} from '../../Assets/Images/logo.PNG';
+import logo from '../../Assets/logo.PNG';
 import "./Navbar.scss";
 import "../../App.scss";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className=" app__flex ">
       <ul className="app__flex app__container-width navbar">
-        <h2 className="navbar__logo">Wilsons Trucks</h2>
+        <img src={logo} alt="" className="navbar__logo" />
         <div className="navbar__links">
           <NavLink to="/" className={({ isActive }) => (isActive ? "active navlinks" : "navlinks")}>
             Home

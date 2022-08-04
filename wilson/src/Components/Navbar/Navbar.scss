@@ -6,6 +6,12 @@ nav {
   .navbar {
     justify-content: space-between;
 
+
+    .navbar__logo{
+      height: 65px;
+      width: 90px;
+    }
+
     .navbar__links {
       display: flex;
       gap: var(--gap-1);

@@ -1,0 +1,39 @@
+.footer {
+  margin-top: 15rem;
+  background-color: var(--grey-200);
+
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--p-1) 0px;
+    img {
+      height: 65px;
+      width: 90px;
+    }
+
+    .footer__content-text {
+      display: flex;
+      gap: 25px;
+
+      .footer__links {
+        text-decoration: none;
+        color: var(--grey-500);
+        font-weight: 600;
+      }
+    }
+
+    p {
+      color: var(--grey-400);
+    }
+  }
+
+  .footer__socials {
+    display: flex;
+    gap: 15px;
+    .footer__social-links {
+      font-size: 1.4rem;
+      color: var(--grey-600);
+    }
+  }
+}

@@ -54,6 +54,19 @@ const About = () => {
             delayTime={0.8}
           />
         </div>
+        <motion.h1 className="ourteam__title" whileInView={{ x: [-200, 0], opacity: [0, 1] }} transition={{ duration: 1 }}>
+          Why we started 
+        </motion.h1>
+        <motion.hr
+          whileInView={{ x: [-50, 0], opacity: [0, 1] }}
+          transition={{ duration: 1, delay: 0.2 }}
+        />
+        <motion.p className="ourteam__p"
+          whileInView={{ x: [-300, 0], opacity: [0, 1] }}
+          transition={{ duration: 1, delay: 0.4 }}
+        >
+          Our company started in 2017 with Jamal Wilson. It was made as there was a shortage of trucks and deliverys in melbourne. So he came up with solution to add the two together. We now have 5000 trucks 2000 employees and the best working  staff in melbourne. We are set to make further growths going into the year of 2022.  
+        </motion.p>
       </div>
     </div>
   );

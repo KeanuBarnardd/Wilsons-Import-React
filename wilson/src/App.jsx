@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import { Home, About, Careers, Contact, NotFound } from "./Containers";
+import { Home, About, Careers, Contact, NotFound , Footer} from "./Containers";
 import { Navbar } from "./Components";
 import './Globals.css';
 
@@ -15,6 +15,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };

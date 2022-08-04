@@ -6,17 +6,15 @@ import OurMessage from "./OurMessage/OurMessage";
 import OurServices from "./OurServices/OurServices";
 import { images } from "../../Constants/index";
 import OurStats from "./Ourstats/OurStats";
-import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
     <>
       <Header backgroundImg={images.header} />
       <HeaderWork />
-      <OurMessage/>
-      <OurServices/>
-      <OurStats/>
-      <Footer/>
+      <OurMessage />
+      <OurServices />
+      <OurStats />
     </>
   );
 };

@@ -1,19 +1,18 @@
 import aboutImg from "../Assets/Images/aboutMeEdit.PNG";
-import bobImg from "../Assets/Images/bob.avif";
-import chingImg from "../Assets/Images/ching.avif";
-import commercial from "../Assets/Images/commercial.avif";
-import crates from "../Assets/Images/crates.avif";
-import dimiImg from "../Assets/Images/Dimitrious.avif";
-import Jamal from "../Assets/Images/Jamal.avif";
-import jeff from "../Assets/Images/jeff.avif";
-import jim from "../Assets/Images/jim.avif";
-import kevin from "../Assets/Images/Kevin.avif";
+import bobImg from "../Assets/Images/bob.png";
+import chingImg from "../Assets/Images/ching.png";
+import commercial from "../Assets/Images/commercial.png";
+import crates from "../Assets/Images/crates.png";
+import dimiImg from "../Assets/Images/Dimitrious.png";
+import Jamal from "../Assets/Images/Jamal.png";
+import jeff from "../Assets/Images/jeff.png";
+import jim from "../Assets/Images/jim.png";
+import kevin from "../Assets/Images/Kevin.png";
 import serviceSection from "../Assets/Images/servicesSection.jpg";
-import signature from "../Assets/Images/signature.png";
-import stew from "../Assets/Images/stew.avif";
-import trucks from "../Assets/Images/trucks.avif";
-import trucksBirdsEyeview from "../Assets/Images/trucksBirdsEyeview.avif"
-import warehouse from "../Assets/Images/warehouse.avif";
+import stew from "../Assets/Images/stew.png";
+import trucks from "../Assets/Images/trucks.png";
+import trucksBirdsEyeview from "../Assets/Images/trucksBirdsEyeview.png";
+import warehouse from "../Assets/Images/warehouse.png";
 import header from "../Assets/Images/header.jpg";
 
 export default {
@@ -28,7 +27,6 @@ export default {
   jim,
   kevin,
   serviceSection,
-  signature,
   stew,
   trucks,
   trucksBirdsEyeview,

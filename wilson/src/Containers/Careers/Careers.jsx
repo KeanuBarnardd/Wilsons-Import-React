@@ -26,9 +26,7 @@ const Careers = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="careers__p"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe libero minus corrupti,
-          sint temporibus veniam voluptates quam reprehenderit id soluta in! Excepturi consequuntur
-          laudantium ut dolore deserunt quos, delectus molestias?
+          Looking to start a fresh and exciting career with Wilsons Trucks. Well look no further we are a family of strong compontent workers that are constantly on the look out for hard working members. We strive for diversity and have tons of positions to fill with your expertise. 
         </motion.p>
         <motion.button
           className="careers__button"
@@ -64,9 +62,7 @@ const Careers = () => {
           whileInView={{ x: [-50, 0], opacity: [0, 1] }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe libero minus corrupti,
-          sint temporibus veniam voluptates quam reprehenderit id soluta in! Excepturi consequuntur
-          laudantium ut dolore deserunt quos, delectus molestias?
+        We have worked with a ton of brands making sure they succed in getting the best delivery, storage and customer service anyone can provide. Working with these brands has solified as in this market and helps us continue to grow. 
         </motion.p>
         <div className="careers__groups-grid">
           <motion.div

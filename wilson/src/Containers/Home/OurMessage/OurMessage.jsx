@@ -21,7 +21,7 @@ const OurMessage = () => {
         >
           <h1>Our message</h1>
           <hr />
-          <p>
+          <p>~
             At Wilsons Trucks, we encourage our team to come up with innovative ideas, strategic
             ways of thinking and bigger picture planning thinking to help our personal and
             professional growth.

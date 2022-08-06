@@ -22,9 +22,10 @@ const Contact = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="contact__p"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe libero minus corrupti,
-          sint temporibus veniam voluptates quam reprehenderit id soluta in! Excepturi consequuntur
-          laudantium ut dolore deserunt quos, delectus molestias?
+          {" "}
+          Got a question about how we run things? Looking for to see if we are hiring? If you have
+          an questions feel free to contact us, we will respond as soon as possible and love to hear
+          from you.
         </motion.p>
         <div className="app__flex">
           <motion.form
@@ -50,7 +51,9 @@ const Contact = () => {
                 placeholder="Hello, I just want to enquire..."
               ></textarea>
             </div>
-            <button id="form__btn" className="form__button" type="submit">SEND</button>
+            <button id="form__btn" className="form__button" type="submit">
+              SEND
+            </button>
           </motion.form>
         </div>
       </div>

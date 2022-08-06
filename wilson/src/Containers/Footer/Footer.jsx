@@ -13,10 +13,10 @@ const Footer = () => {
           <Link className="footer__links" to="/contact">
             Contact Us
           </Link>
-          <Link className="footer__links" to="/contact">
+          <Link className="footer__links" to="/about">
             Find out more about us
           </Link>
-          <Link className="footer__links" to="/contact">
+          <Link className="footer__links" to="/careers">
             Check if we are hiring
           </Link>
         </div>
